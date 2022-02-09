@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es2015",
+    "declaration": true,
+    "declarationMap": true,
+    "rootDir": ".",
+    "composite": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "baseUrl": "./src",
+    "noEmitOnError": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "jsx": "react-jsx",
+    "lib": ["ESNext.String", "DOM"],
+  }
+}
